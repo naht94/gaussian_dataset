@@ -73,3 +73,4 @@ If you use this code or our survey data in your research,please cite:
 ```
 
 Note: This project is based on the hloc toolbox. We provide our custom pipeline on top of it.
+https://github.com/cvg/Hierarchical-Localization/
