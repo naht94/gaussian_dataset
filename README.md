@@ -1,6 +1,5 @@
 # [Research] Preprocessing Strategies for 3D Gaussian Splatting
 [![DOI](https://zenodo.org/badge/1218566078.svg)](https://doi.org/10.5281/zenodo.19703090)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19694064.svg)](https://doi.org/10.5281/zenodo.19694064)
 
 This repository contains the official implementation and benchmarking scripts for the paper:
 > **"A Study on Preprocessing Strategies for RGB-Based 3DGS"**
