@@ -1,5 +1,5 @@
 # [Research] Preprocessing Strategies for 3D Gaussian Splatting
-
+[![DOI](https://zenodo.org/badge/1218566078.svg)](https://doi.org/10.5281/zenodo.19703090)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19694064.svg)](https://doi.org/10.5281/zenodo.19694064)
 
 This repository contains the official implementation and benchmarking scripts for the paper:
@@ -25,19 +25,22 @@ This study systematically analyzes how different feature extraction and matching
 ## 🛠 Author's Contribution for Reproducibility
 While this framework is built upon the **hloc (Hierarchical Localization)** toolbox, we have developed specific components to ensure research transparency:
 - **`run_all_experiments.py`**: A dedicated automation script that executes all 12 experimental matrices to generate 3DGS-ready sparse point clouds.
-- **`datasets/survey_data/`**: Includes the multi-view image dataset (28 frames) used in our comparative analysis.
+- **`survey_data`**: Includes the multi-view image dataset (28 frames) used in our comparative analysis.
 
 ## 🚀 Getting Started
 
 ### 1. Installation
 ```bash
 # Clone the repository with submodules
-git clone --recursive https://github.com/naht94/gaussian_splatting_preprocessing_dataset.git
-cd gaussian_splatting_preprocessing_dataset
+git clone --recursive https://github.com/naht94/gaussian_dataset.git
+cd gaussian_dataset
 
 # Install dependencies
 pip install -r requirements.txt
-python setup.py install
+git clone --recursive https://github.com/cvg/Hierarchical-Localization/
+cd Hierarchical-Localization/
+pip install -e .
+cd ..
 ```
 
 2. Running Experiments
